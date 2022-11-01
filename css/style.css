@@ -68,6 +68,12 @@ footer{
 
 }
 
+.col-25 span{
+    background-color: gray;
+    color: rgb(168, 0, 0);
+    padding: 30px 10px 30px 10px;
+}
+
 
 /*attribute*/
 
@@ -110,3 +116,4 @@ footer .row{
     align-items: center;
     height: 100%;
 }
+
