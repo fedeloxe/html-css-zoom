@@ -8,7 +8,8 @@
 
 main{
     background-color: black;
-    height: 90vh;
+    height: calc(100vh - 80px);
+    overflow-y: auto;
 }
 
 
@@ -31,6 +32,7 @@ main .container{
     padding: 3px;
     border-radius: 5px;
     margin-top: 5px;
+    z-index: 1;
 }
 
 .dispostion1{
@@ -57,7 +59,7 @@ img{
 
 
 footer{
-    height: 10vh;
+    height: 80px;
     background-color: rgb(34, 34, 34);
     color: white;
     font-size: 15px;
@@ -79,13 +81,13 @@ footer{
 
 main .row{
     display: flex;
-    justify-content: space-between;
-    height: 20%;
+    justify-content: center;
+    flex-wrap: wrap;
 
 }
 
 .col-user{
-    width:calc(100%/7);
+    width:14%;
     margin-right: 5px;
     margin-bottom: 20px
     
